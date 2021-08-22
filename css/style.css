@@ -1,7 +1,7 @@
 /*-----------------
 font
 -----------------*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap');
 
 /*-----------------
 global style
@@ -45,7 +45,7 @@ body.hidden-scrolling{
     overflow-y: hidden;
 }
 *:not(i){
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     font-weight: 400;
 }
 *{
@@ -528,6 +528,7 @@ about section
     min-height: 100vh;
 }
 .about-section .about-img{
+    margin-top: 20px;
     flex: 0 0 35%;
     max-width: 40%;
     padding: 0 15px;
@@ -566,6 +567,7 @@ about section
     color: var(--skin-color);
 }
 .about-section .about-info{
+    margin-top: 20px;
     flex: 0 0 60%;
     max-width: 60%;
     padding: 0 15px;
@@ -757,6 +759,7 @@ service-section
     min-height: 100vh;
 }
 .service-section .service-item{
+    margin-top: 10px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
     padding: 15px;
@@ -1149,6 +1152,7 @@ testimonial section
     max-width: 600px;
     margin: auto;
     padding: 0 15px;
+    margin-top: 40px;
 }
 .testimonial-section .testi-slider{
     border-radius: 5px;
@@ -1160,6 +1164,7 @@ testimonial section
     align-items: center;
 }
 .testimonial-section .testi-item{
+    margin: 5px;
     padding: 30px;
     text-align: center;
     position: relative;
@@ -1171,14 +1176,15 @@ testimonial section
     opacity: 0.1;
 }
 .testimonial-section .testi-item i.left{
-    left: 5px;
-    top: 5px;
+    left: 10px;
+    top: 10px;
 }
 .testimonial-section .testi-item i.right{
-    right: 5px;
-    bottom: 5px;
+    right: 10px;
+    bottom: 10px;
 }
 .testimonial-section .testi-item p{
+    word-wrap: break-word;
     font-size: 16px;
     line-height: 26px;
     color: var(--text-black-600);
